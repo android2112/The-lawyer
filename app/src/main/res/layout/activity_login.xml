@@ -5,48 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="#80ced6">
+    android:background="@drawable/background"
+    >
 
-<EditText
-    android:id="@+id/emailfield"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:inputType="textEmailAddress"
-    android:hint="Email"/>
+    <EditText
+        android:id="@+id/emailfield"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="184dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
 
 
     <EditText
-        android:layout_below="@id/emailfield"
         android:id="@+id/passwordfield"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="Password"/>
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="240dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
 
 
     <Button
-        android:layout_below="@id/passwordfield"
         android:id="@+id/loginbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
+        android:text="LOGIN" />
 
 
     <Button
-        android:layout_below="@id/loginbutton"
         android:id="@+id/signupbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SIGNUP"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="152dp"
+        android:text="SIGNUP" />
 
-
-
-
-
-
-
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        app:srcCompat="@drawable/icon1" />
 
 
 </RelativeLayout>
