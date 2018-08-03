@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "136344991344",
+    "firebase_url": "https://the-lawyer-68690.firebaseio.com",
+    "project_id": "the-lawyer-68690",
+    "storage_bucket": "the-lawyer-68690.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136344991344:android:4bb6378b0227bdd2",
+        "android_client_info": {
+          "package_name": "com.example.marco.thelawyer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136344991344-9kabm2ia1k85103b86cm9dmcafbr33d4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marco.thelawyer",
+            "certificate_hash": "4010bd8f6fb1d0e64d840253ba8448e55e15de7e"
+          }
+        },
+        {
+          "client_id": "136344991344-b8es516ee1otgvnq59bjcoi2s1d3a9gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrQOHFkF47ieRIUufPchwfGyyIFSSd99w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136344991344-b8es516ee1otgvnq59bjcoi2s1d3a9gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

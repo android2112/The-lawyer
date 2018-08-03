@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/chi_siamo"
+            android:icon="@drawable/ic_chi_siamo"
+            android:title="Chi Siamo"
+             />
+        <item
+            android:id="@+id/consulenza"
+            android:icon="@drawable/ic_consulenza"
+            android:title="Consulenza" />
+        <item
+            android:id="@+id/dove_siamo"
+            android:icon="@drawable/ic_dove_siamo"
+            android:title="Dove Siamo" />
+        <item
+            android:id="@+id/contatti"
+            android:icon="@drawable/ic_contatti"
+            android:title="Contatti"/>
+    </group>
+
+</menu>
