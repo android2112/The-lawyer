@@ -10,11 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
-import android.widget.EditText;
 import android.widget.Toast;
-
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 
 public class
@@ -61,6 +57,10 @@ MainActivity extends AppCompatActivity implements NavigationView.OnNavigationIte
             Toast.makeText(this, "chi siamo", Toast.LENGTH_SHORT).show();
             drawerLayout.closeDrawers();
             break;
+
+            case R.id.news:
+
+                break;
 
             case R.id.consulenza:
                 Toast.makeText(this, "consulenza", Toast.LENGTH_SHORT).show();
