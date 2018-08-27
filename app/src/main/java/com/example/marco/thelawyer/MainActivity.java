@@ -40,7 +40,7 @@ MainActivity extends AppCompatActivity implements NavigationView.OnNavigationIte
 
         navigationView.setNavigationItemSelectedListener(this);
 
-        toggle = new ActionBarDrawerToggle(this, drawerLayout,toolbar, R.string.navigation_open, R.string.navigation_close);
+        toggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.navigation_open, R.string.navigation_close);
         drawerLayout.setDrawerListener(toggle);
 
     }
@@ -54,17 +54,25 @@ MainActivity extends AppCompatActivity implements NavigationView.OnNavigationIte
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
-        int id=item.getItemId();
+        int id = item.getItemId();
 
-        switch(id){
-             case R.id.chi_siamo:
-            Toast.makeText(this, "chi siamo", Toast.LENGTH_SHORT).show();
-            drawerLayout.closeDrawers();
-            break;
+        switch (id) {
+            case R.id.chi_siamo:
+                Toast.makeText(this, "chi siamo", Toast.LENGTH_SHORT).show();
+                drawerLayout.closeDrawers();
+                break;
 
+            case R.id.news:
+                drawerLayout.closeDrawers();
+
+            case R.id.dove_siamo:
+                Intent intent = new Intent(MainActivity.this,MapsActivity.class);
+                startActivity(intent);
+                drawerLayout.closeDrawers();
+                break;
             case R.id.consulenza:
                 Toast.makeText(this, "consulenza", Toast.LENGTH_SHORT).show();
-            break;
+                break;
         }
 
         return true;

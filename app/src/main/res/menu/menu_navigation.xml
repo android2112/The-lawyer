@@ -7,6 +7,12 @@
             android:title="Chi Siamo"
              />
         <item
+            android:id="@+id/news"
+            android:icon="@drawable/ic_news"
+            android:title="News"
+            />
+
+        <item
             android:id="@+id/consulenza"
             android:icon="@drawable/ic_consulenza"
             android:title="Consulenza" />
